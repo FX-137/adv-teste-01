@@ -1,0 +1,28 @@
+
+{
+  "name": "Ricardo Bitencourt Advocacia",
+  "short_name": "Bitencourt Adv",
+  "description": "Escritório de Advocacia e Consultoria Jurídica Ricardo Bitencourt",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqgNg6tmdfMGjKvZwZ9_OAHgbsAFhZU-Xvn0xVBVWn8vjfSLL8yKrA719T52D34a7PTDF9NkBPAeEvgjVMIl-kzvovEEnXzHm53h58IWlBKBEAEgYOxTwlFFSIGF5rqWXKyCxUL6inpjliN0r4VZJAlqDAMbpi07KKFty79vcBPvzjtRcaFNOH6O0rmNM/s64/Balan%C3%A7a.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqgNg6tmdfMGjKvZwZ9_OAHgbsAFhZU-Xvn0xVBVWn8vjfSLL8yKrA719T52D34a7PTDF9NkBPAeEvgjVMIl-kzvovEEnXzHm53h58IWlBKBEAEgYOxTwlFFSIGF5rqWXKyCxUL6inpjliN0r4VZJAlqDAMbpi07KKFty79vcBPvzjtRcaFNOH6O0rmNM/s1600/Balan%C3%A7a.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqgNg6tmdfMGjKvZwZ9_OAHgbsAFhZU-Xvn0xVBVWn8vjfSLL8yKrA719T52D34a7PTDF9NkBPAeEvgjVMIl-kzvovEEnXzHm53h58IWlBKBEAEgYOxTwlFFSIGF5rqWXKyCxUL6inpjliN0r4VZJAlqDAMbpi07KKFty79vcBPvzjtRcaFNOH6O0rmNM/s1600/Balan%C3%A7a.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
