@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Mestre FCL - Advocacia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                'law-gold': '#c5a059',
+                'law-dark': '#0f172a',
+                'law-black': '#0a0a0a',
+                'whatsapp-green': '#25d366'
+              }
+            }
+          }
+        }
+    </script>
+    <style>
+        body { background-color: #0a0a0a; color: white; scroll-behavior: smooth; }
+        .modal-open { overflow: hidden; }
+        .custom-map iframe { width: 100%; border-radius: 8px; }
+    </style>
+</head>
+<body>
+
+    <nav class="bg-law-dark py-6 px-4 md:px-20 flex justify-between items-center border-b border-law-gold/20 sticky top-0 z-50">
+        <div>
+            <h1 class="text-white text-2xl font-bold tracking-widest uppercase leading-tight">RICARDO BITENCOURT</h1>
+            <p class="text-law-gold text-[10px] tracking-[0.4em] font-light">ADVOCACIA & CONSULTORIA</p>
+        </div>
+        <a href="https://wa.me/5551992496479?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" class="bg-whatsapp-green text-white px-5 py-3 rounded text-xs font-bold flex items-center gap-2 hover:scale-105 transition-all uppercase shadow-lg">
+            <i data-feather="message-circle" class="w-4 h-4"></i> ENVIAR MENSAGEM
+        </a>
+    </nav>
+
+    <main class="min-h-[50vh] flex flex-col items-center justify-center text-center px-4 py-20 bg-[url('https://www.transparenttextures.com/patterns/dark-leather.png')]">
+        <h2 class="text-4xl md:text-6xl font-serif mb-6 text-white leading-tight">SOLUÇÕES JURÍDICAS<br><span class="text-law-gold">PERSONALIZADAS</span></h2>
+        <p class="text-gray-400 max-w-xl mx-auto text-lg italic">"Justiça e compromisso com o seu direito."</p>
+    </main>
+
+    <footer class="bg-law-black pt-16 pb-6 border-t border-white/5">
+        <div class="container mx-auto px-4 max-w-4xl">
+            
+            <div class="bg-law-dark/40 border border-white/10 rounded-3xl p-6 md:p-10 shadow-2xl relative">
+                <div class="absolute -top-5 left-1/2 -translate-x-1/2 bg-law-black px-6 py-2 border border-law-gold/30 rounded-full text-law-gold text-[10px] font-bold tracking-widest uppercase">
+                    Nosso Escritório
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 mt-4">
+                    <a href="tel:5133334444" class="flex items-center gap-4 bg-white/5 p-4 rounded-xl border border-white/5 hover:border-law-gold/50 transition-all group">
+                        <div class="bg-law-gold/20 p-3 rounded-lg group-hover:bg-law-gold transition-colors">
+                            <i data-feather="phone" class="text-law-gold group-hover:text-black w-5 h-5"></i>
+                        </div>
+                        <div class="text-left">
+                            <p class="text-[10px] text-gray-500 uppercase font-bold">Ligue agora</p>
+                            <p class="text-white font-bold">(51) 3333-4444</p>
+                        </div>
+                    </a>
+                    <a href="mailto:contato@exemplo.com.br" class="flex items-center gap-4 bg-white/5 p-4 rounded-xl border border-white/5 hover:border-law-gold/50 transition-all group">
+                        <div class="bg-law-gold/20 p-3 rounded-lg group-hover:bg-law-gold transition-colors">
+                            <i data-feather="mail" class="text-law-gold group-hover:text-black w-5 h-5"></i>
+                        </div>
+                        <div class="text-left">
+                            <p class="text-[10px] text-gray-500 uppercase font-bold">Envie um e-mail</p>
+                            <p class="text-white font-bold">contato@bitencourt.adv.br</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="text-center mb-8">
+                    <h3 class="text-xl font-bold">Rua Senhor dos Passos, 372 - Sala 701</h3>
+                    <p class="text-gray-500 text-sm">Centro Histórico - Porto Alegre/RS</p>
+                </div>
+
+                <div class="custom-map shadow-inner mb-8 bg-stone-800 flex items-center justify-center min-h-[350px]">
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.218556636756!2d-51.2299831!3d-30.0305085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95197906368d197d%3A0xc4842e434f0b78d!2sR.%20Senhor%20dos%20Passos%2C%20372%20-%20Centro%20Histórico%2C%20Porto%20Alegre%20-%20RS%2C%2090020-180!5e0!3m2!1spt-BR!2sbr!4v1715634567890!5m2!1spt-BR!2sbr" 
+        width="100%" 
+        height="350" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</div>
+
+<a href="https://www.google.com/maps/dir//Rua+Senhor+dos+Passos,+372+-+Centro+Histórico,+Porto+Alegre+-+RS" 
+   target="_blank" 
+   class="bg-law-gold text-black px-8 py-4 rounded-full font-extrabold flex items-center justify-center gap-2 mx-auto hover:brightness-110 transition uppercase text-xs tracking-tighter w-full md:w-max shadow-xl">
+    <i data-feather="send" class="w-4 h-4"></i> TRAÇAR ROTA (COMO CHEGAR)
+</a>
+            </div>
+
+            <div class="mt-12 flex flex-col items-center gap-6">
+                <div class="flex gap-6 text-[10px] text-gray-600 uppercase font-bold">
+                    <button onclick="toggleModal('modal-terms')" class="hover:text-law-gold transition">Termos de Uso</button>
+                    <span class="text-white/10">|</span>
+                    <button onclick="toggleModal('modal-privacy')" class="hover:text-law-gold transition">Política de Privacidade</button>
+                </div>
+
+                <div class="flex items-center gap-2 text-[10px] text-gray-700 font-bold uppercase tracking-[0.2em]">
+                    CRIADO POR 
+                    <a href="https://wa.me/5551992496479?text=Olá%20Fernando.%20Gostaria%20de%20saber%20mais%20sobre%20criação%20de%20sites" target="_blank" class="flex items-center gap-1 text-gray-400 hover:text-law-gold transition">
+                        FCL <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" class="w-3 h-3 ml-1"> CONTATO
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="cookie-banner" class="fixed bottom-6 left-1/2 -translate-x-1/2 w-[95%] max-w-4xl z-[100] hidden">
+    <div class="bg-law-dark/95 border border-law-gold/30 p-5 rounded-2xl flex flex-col md:flex-row items-center justify-between gap-6 shadow-2xl backdrop-blur-md">
+            <div class="flex items-center gap-4">
+                <div class="bg-law-gold/20 p-3 rounded-full hidden md:block">
+                    <i data-feather="shield" class="text-law-gold w-5 h-5"></i>
+                </div>
+                <div class="text-center md:text-left">
+                    <h4 class="text-law-gold font-bold text-xs uppercase tracking-widest leading-none mb-1">Privacidade & Cookies</h4>
+                    <p class="text-gray-400 text-[10px] leading-tight">Utilizamos cookies para personalizar sua experiência. Ao continuar, você concorda com nossos termos.</p>
+                </div>
+            </div>
+            <div class="flex gap-2 w-full md:w-auto">
+                <button onclick="closeCookies()" class="flex-1 md:flex-none px-6 py-2 text-[10px] font-bold border border-law-gold/50 text-law-gold rounded-lg hover:bg-white/5 transition uppercase">Recusar</button>
+                <button onclick="closeCookies()" class="flex-1 md:flex-none px-6 py-2 text-[10px] font-bold bg-law-gold text-black rounded-lg hover:brightness-110 transition uppercase shadow-lg">Aceitar</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-terms" class="fixed inset-0 bg-black/90 z-[200] hidden items-center justify-center p-4">
+        <div class="bg-white text-black p-8 rounded-2xl max-w-2xl w-full max-h-[80vh] overflow-y-auto relative">
+            <h2 class="text-2xl font-bold mb-4 border-b pb-2 text-law-dark uppercase text-sm tracking-widest">Termos de Uso</h2>
+            <div class="text-xs leading-relaxed text-gray-700 space-y-4">
+                <p><strong>1. Uso do Site:</strong> Este site fornece informações institucionais sobre serviços advocatícios. O uso do material aqui contido não estabelece relação cliente-advogado.</p>
+                <p><strong>2. Propriedade Intelectual:</strong> Todo o conteúdo, logotipos e design são de propriedade exclusiva de Ricardo Bitencourt.</p>
+                <p><strong>3. Responsabilidade:</strong> Não nos responsabilizamos por decisões tomadas com base apenas nas informações deste site sem consulta prévia.</p>
+            </div>
+            <button onclick="toggleModal('modal-terms')" class="mt-8 w-full bg-law-dark text-white py-3 rounded-lg font-bold uppercase text-xs">Entendi e Fechar</button>
+        </div>
+    </div>
+
+    <div id="modal-privacy" class="fixed inset-0 bg-black/90 z-[200] hidden items-center justify-center p-4">
+        <div class="bg-white text-black p-8 rounded-2xl max-w-2xl w-full max-h-[80vh] overflow-y-auto relative">
+            <h2 class="text-2xl font-bold mb-4 border-b pb-2 text-law-dark uppercase text-sm tracking-widest">Política de Privacidade</h2>
+            <div class="text-xs leading-relaxed text-gray-700 space-y-4">
+                <p><strong>Coleta de Dados:</strong> Coletamos apenas dados fornecidos voluntariamente através dos botões de contato (WhatsApp/E-mail).</p>
+                <p><strong>Finalidade:</strong> Seus dados são usados exclusivamente para responder às suas solicitações de consulta.</p>
+                <p><strong>LGPD:</strong> Operamos em total conformidade com a Lei Geral de Proteção de Dados, garantindo o sigilo absoluto das suas informações.</p>
+            </div>
+            <button onclick="toggleModal('modal-privacy')" class="mt-8 w-full bg-law-dark text-white py-3 rounded-lg font-bold uppercase text-xs">Entendi e Fechar</button>
+        </div>
+    </div>
+
+   <script>
+    // Inicializa os ícones do Feather
+    feather.replace();
+
+    // Função para fechar o banner e salvar na memória do navegador
+    function closeCookies() {
+        const banner = document.getElementById('cookie-banner');
+        banner.classList.add('hidden');
+        // Salva que o usuário já interagiu
+        localStorage.setItem('fcl_cookies_consent', 'aceito');
+    }
+
+    // Função para abrir/fechar os modais de termos
+    function toggleModal(id) {
+        const m = document.getElementById(id);
+        m.classList.toggle('hidden');
+        m.classList.toggle('flex');
+    }
+
+    // LÓGICA PRINCIPAL: Executa quando a página termina de carregar
+    window.addEventListener('load', function() {
+        const consentimento = localStorage.getItem('fcl_cookies_consent');
+        const banner = document.getElementById('cookie-banner');
+
+        // Só mostra se o usuário NUNCA tiver clicado em aceitar/recusar
+        if (!consentimento) {
+            setTimeout(function() {
+                // Remove o hidden para ele existir na página
+                banner.classList.remove('hidden');
+                
+                // Aplica uma animação suave de entrada via código
+                banner.animate([
+                    { opacity: 0, transform: 'translate(-50%, 20px)' },
+                    { opacity: 1, transform: 'translate(-50%, 0)' }
+                ], {
+                    duration: 600,
+                    easing: 'ease-out',
+                    fill: 'forwards'
+                });
+            }, 1000); // 1000 milissegundos = 1 segundo de atraso
+        }
+    });
+</script>
+</body>
+</html>
